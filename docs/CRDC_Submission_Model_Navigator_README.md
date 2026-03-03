@@ -1,0 +1,3 @@
+# NCI Imaging Submission Model
+
+The CRDC Submission Model is graph-based where nodes correspond functionally to tables in a relational database.  Each node contains properties that represent columns, or fields, in the table, with relationships stored at the level of individual records.  This data model is intended to support submission of all types of metadata throuh the CRDC Data Submission Portal.
