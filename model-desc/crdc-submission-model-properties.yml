@@ -336,11 +336,11 @@ PropDefinitions:
   biospecimen_adjacent_ids:
     Tags:
       Template: 'No'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: TBD
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: TBD
     Desc: None
     Req: 'False'
     Type: .nan
@@ -1003,11 +1003,11 @@ PropDefinitions:
   pers_institution:
     Tags:
       Template: 'Yes'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: TBD
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: TBD
     Desc: None
     Req: 'False'
     Type: enum
@@ -1085,22 +1085,22 @@ PropDefinitions:
   prg_external_url:
     Tags:
       Template: 'No'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: TBD
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: TBD
     Desc: None
     Req: 'True'
     Type: string
   prg_full_description:
     Tags:
       Template: 'No'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: TBD
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: TBD
     Desc: None
     Req: 'True'
     Type: string
@@ -1119,11 +1119,11 @@ PropDefinitions:
   prg_short_description:
     Tags:
       Template: 'No'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: TBD
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: TBD
     Desc: None
     Req: 'True'
     Type: string
@@ -1156,11 +1156,11 @@ PropDefinitions:
   DOI_relationship_type:
     Tags:
       Template: 'Yes'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: Datacite
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: Datacite
     Desc: None
     Req: 'True'
     Type: enum
@@ -1245,11 +1245,11 @@ PropDefinitions:
   resource_identifier:
     Tags:
       Template: 'Yes'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: TBD
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: TBD
     Desc: None
     Req: 'False'
     Type: enum
@@ -1313,11 +1313,11 @@ PropDefinitions:
   data_access_level:
     Tags:
       Template: 'No'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: TBD
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: TBD
     Desc: None
     Req: 'True'
     Type: enum
@@ -1386,11 +1386,11 @@ PropDefinitions:
   iacuc_approval_date:
     Tags:
       Template: 'Yes'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: TBD
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: TBD
     Desc: None
     Req: 'False'
     Type: string
@@ -1449,11 +1449,11 @@ PropDefinitions:
   study_external_url:
     Tags:
       Template: 'No'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: TBD
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: TBD
     Desc: None
     Req: 'False'
     Type: string
@@ -1494,11 +1494,11 @@ PropDefinitions:
   study_organism:
     Tags:
       Template: 'No'
-    Term:
-    - Value: null
-      Origin: caDSR
-      Definition: None
-      Code: TBD
+    #Term:
+    #- Value: null
+    #  Origin: caDSR
+    #  Definition: None
+    #  Code: TBD
     Desc: None
     Req: 'True'
     Type: byref
