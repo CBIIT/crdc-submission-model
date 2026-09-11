@@ -17,7 +17,7 @@ jobs:
     uses: CBIIT/bento-workflows/.github/workflows/model-test-and-deploy.yml@v2.3.15
     with:
       model_files: |
-        nci_imaging_submission_model.yml nci_imaging_submission_model_properties.yml
+        crdc-submission-model.yml crdc-submission-model-properties.yml
       model_prefix: crdc-submission-model
       event_name: ${{ github.event_name }}
       nodes_only_graph: yes
