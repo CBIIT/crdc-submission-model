@@ -1,5 +1,5 @@
 Handle: SDM
-Version: 0.0.2
+Version: 0.0.3
 Nodes:
   biospecimen:
     Tags:
@@ -12,7 +12,7 @@ Nodes:
     - analyte_type
     - clinical_biospec_type
     - degree_dysplasia
-    - dis_code_ICD-10
+    - dis_code_ICD_10
     - fixation_duration_minutes
     - longest_dim
     - perc_necrosis
@@ -37,7 +37,7 @@ Nodes:
     - specimen_laterality
     - specimen_procurement_method
     - timepoint
-    - tissue_morph_ICD-O-3
+    - tissue_morph_ICD_O_3
     - tissue_sample_type
     - tumor_type
   case:
@@ -65,7 +65,7 @@ Nodes:
     - primary_diagnosis_ncit
     - primary_site_uberon
     - regional_lymph_stage_clinical_n
-    - tissue_or_organ_of_origin_ICD-O
+    - tissue_or_organ_of_origin_ICD_O
     - tumor_classification
     - tumor_grade
     - tumor_stage_clinical_t
@@ -79,12 +79,8 @@ Nodes:
     - pack_years_smoked
     - smoking_hiostory
     - years_smoked
-  family history:
-    Tags:
-      Category: Subject
-    Props:
-    - family_member_cancer_diagnosis
-    - family_member_cancer_diagnosis_count
+  family_history:
+    Props: null
   followup:
     Props: null
   imaging:
