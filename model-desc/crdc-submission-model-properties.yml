@@ -71,9 +71,7 @@ PropDefinitions:
     Req: 'No'
     Key: 'No'
     Type: string
-  dis_code_ICD-10:
-    Tags:
-      Template: 'Yes'
+  dis_code_ICD_10:
     Term:
     - Value: Diagnosis Disease ICD-10-CM Code
       Origin: caDSR
@@ -342,9 +340,7 @@ PropDefinitions:
       Origin: caDSR
       Version: '2'
       Code: '8031077'
-  tissue_morph_ICD-O-3:
-    Tags:
-      Template: 'No'
+  tissue_morph_ICD_O_3:
     Term:
     - Value: Specimen Tumor Tissue ICD-O-3 Morphology Code
       Origin: caDSR
@@ -642,9 +638,7 @@ PropDefinitions:
       Origin: caDSR
       Version: '1'
       Code: '3440330'
-  tissue_or_organ_of_origin_ICD-O:
-    Tags:
-      Template: 'No'
+  tissue_or_organ_of_origin_ICD_O:
     Term:
     - Value: ICD-O Origin of Disease Anatomic Site
       Origin: caDSR
