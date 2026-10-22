@@ -808,39 +808,6 @@ PropDefinitions:
       Origin: caDSR
       Version: '1'
       Code: '3137957'
-  family_member_cancer_diagnosis:
-    Tags:
-      Template: 'Yes'
-    Term:
-    - Value: Person Family Member with Cancer History Indicator
-      Origin: caDSR
-      Definition: A response to indicate whether or not a person has family member(s)
-        with a history of cancer.
-      Version: '1'
-      Code: '16066660'
-    Req: 'Yes'
-    Key: 'No'
-    Enum:
-    - Value: Person Family Member with Cancer History Indicator
-      Origin: caDSR
-      Version: '1'
-      Code: '16066660'
-  family_member_cancer_diagnosis_count:
-    Tags:
-      Template: 'Yes'
-    Term:
-    - Value: Person Family Member with Cancer History Count
-      Origin: caDSR
-      Definition: The total number of family members with a history of cancer.
-      Version: '1'
-      Code: '15907364'
-    Req: 'No'
-    Key: 'No'
-    Enum:
-    - Value: Person Family Member with Cancer History Count
-      Origin: caDSR
-      Version: '1'
-      Code: '15907364'
   age_in_days_last_known_survival_status:
     Tags:
       Template: 'Yes'

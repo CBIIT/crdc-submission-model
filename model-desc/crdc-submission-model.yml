@@ -79,12 +79,8 @@ Nodes:
     - pack_years_smoked
     - smoking_hiostory
     - years_smoked
-  family history:
-    Tags:
-      Category: Subject
-    Props:
-    - family_member_cancer_diagnosis
-    - family_member_cancer_diagnosis_count
+  family_history:
+    Props: null
   followup:
     Props: null
   imaging:

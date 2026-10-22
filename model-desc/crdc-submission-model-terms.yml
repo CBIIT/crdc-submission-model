@@ -184,16 +184,6 @@ Terms:
     Origin: caDSR
     Version: '2'
     Code: '2192217'
-  family_member_cancer_diagnosis:
-    Value: Person Family Member with Cancer History Indicator
-    Origin: caDSR
-    Version: '1'
-    Code: '16066660'
-  family_member_cancer_diagnosis_count:
-    Value: Person Family Member with Cancer History Count
-    Origin: caDSR
-    Version: '1'
-    Code: '15907364'
   funding_agency:
     Value: Study Administration Funding Agency Organization Name
     Origin: caDSR
